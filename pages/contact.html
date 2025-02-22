@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  <title>Responsive Contact Us Page</title>
+  <script src="https://kit.fontawesome.com/c32adfdcda.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="../css/styleContact.css">
+</head>
+<body>
+  
+  <section id="Address" class="Address">
+    
+    <div class="section-header-1">
+      <h2>Contact Us</h2>
+      <p>Reach out to us to learn more about our gym and services. 
+        Our friendly staff are always happy to answer any questions you may have. 
+        Contact us today to schedule a tour or to inquire about membership. We look forward to hearing from you!</p>
+    </div>
+    
+    <div class="container-1">
+      <div class="contact-details-1">
+        <div class="contact-info-1">
+          <div class="contact-info-item-1">
+            <div class="contact-info-content-1">
+              <h4><i class="fas fa-home"></i>Address</h4>
+              <p>Shop No 01,<br/> Ahilyanagar - Kalyan Rd,<br/> Shivaji Nagar, Ahilya Nagar,<br/> Maharashtra 414103</p>
+            </div>
+          </div>
+          
+          <div class="contact-info-item-1">
+            <div class="contact-info-content-1">
+              <h4><i class="fas fa-phone"></i>Phone</h4>
+              <p>+91 8381021286</p>
+              <p>+91 7020112492</p>
+            </div>
+          </div>
+          
+          <div class="contact-info-item-1">
+            
+            <div class="contact-info-content-1">
+              <h4><i class="fas fa-envelope"></i>Email</h4>
+             <p>omkwagh32@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-1">
+          <div class="container-contact-1">
+              <form action="https://api.web3forms.com/submit" method="POST" id="contact-form-1">
+                  <input type="hidden" name="access_key" value="729609ce-bbd8-412a-830c-61c111290917">
+              
+                  <div class="form-group-1">
+                      <label for="name">Your Name</label>
+                      <input type="text" id="name" placeholder="Your Name" name="name" required>
+                  </div>
+              
+                  <div class="form-group-1">
+                      <label for="email">Your Email</label>
+                      <input type="email" id="email" placeholder="Your Email" name="email" required>
+                  </div>
+              
+                  <div class="form-group-1">
+                      <label for="message">Your Message</label>
+                      <textarea id="message" placeholder="Message" name="message" required></textarea>
+                  </div>
+              
+                  <button type="submit" class="btn-contact-1">Send Message</button>
+              </form>
+              
+              <!-- Validation Messages -->
+              <div id="form-status-1"></div>      
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="map-info-1">
+      <h2>Get Directions to Our Gym</h2>
+      <p>Need help finding us? Click on the map below to get directions to our gym location.</p>
+    </div>
+    <div class="img-2">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d508.0820730318364!2d74.70223260727604!3d19.096448920746365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdcb1001d3f56b7%3A0x3c91bfb2e2af4d03!2z4KSm4KWN4KS14KS-4KSw4KSV4KS-IOCkn-CljeCksOClh-CkoeCksOCljeCkuCAmIOCkpuCljeCkteCkvuCksOCkleCkviDgpKvgpL_gpJ_gpKjgpYfgpLg!5e0!3m2!1sen!2sin!4v1738968227317!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="map-info-2">
+      <h3> We can't wait to see you!</h3>
+      <button onclick="window.location.href='../index.html'">Home</button>
+    </div>
+  </section>
+  <script src="../js/script.js"></script>
+</body>
+</html>
