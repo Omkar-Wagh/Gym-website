@@ -771,6 +771,11 @@ margin-bottom: 15px;
   overflow-x: hidden;
   color:white;
 }
+.section-header{
+  width:80%;
+  align-items:center;
+  justify-contend:center;
+}
 container-1 {
   width: 100%;
   display: flex;
@@ -822,7 +827,7 @@ container-1 {
 .contact-info-content-1{
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  align-item:center;
+  align-items:center;
   justify-contend:center;
 }
 .contact-info-content-1 i {
