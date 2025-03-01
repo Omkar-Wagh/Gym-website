@@ -777,6 +777,7 @@ margin-bottom: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
+  height:auto;
   padding: 1rem;
 }
 .section-header-1{
@@ -799,6 +800,7 @@ margin-bottom: 15px;
   justify-content: center;
   width:30vw;
   max-width: 400px;
+  height:auto;
 }
 
 .contact-info-item-1 {
@@ -833,6 +835,8 @@ margin-bottom: 15px;
 }
 
 .container-contact-1 {
+  align-items:center;
+  justify-contend:center;
   background: rgba(28, 28, 28, 0.9);
   padding: 2rem;
   border-radius: 10px;
