@@ -566,7 +566,7 @@ margin-bottom: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #111;
+  background: #222;
   min-height: 50vh;
   font-size: 1rem;
 }
@@ -582,7 +582,7 @@ margin-bottom: 15px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background:orange;
+  background:rgb(28,28,28,0.5);
   font-size: 1.5rem;
   font-weight: bold;
   color:orange;
@@ -592,12 +592,10 @@ margin-bottom: 15px;
 }
 .icon-box-info i {
   font-size: 40px;
-  color:#fff;
   margin-bottom: 10px;
 }
 .icon-box-info h2 {
   margin: 5px 0;
-  color:#fff;
   font-size: 20px;
 }
 @media (max-width: 768px),(max-width: 480px),(max-width:360px){
