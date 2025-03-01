@@ -816,15 +816,14 @@ margin-bottom: 15px;
   font-size: 30px;
   color: #fff;
 }
-
+.contact-info-content-1  {
+  align-items:center;
+  justify-contend:center;
+}
 .contact-info-content-1 h4 {
   color: #1da9c0;
   font-size: 1.4em;
   margin-bottom: 5px;
-}
-.contact-info-content-1  {
-  align-items:center;
-  justify-contend:center;
 }
 .contact-info-content-1 i {
   padding:0 1rem;
