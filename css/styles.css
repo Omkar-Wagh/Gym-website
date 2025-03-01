@@ -566,11 +566,7 @@ margin-bottom: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("../img/bg-img.jpg");
-  background-size: cover;
-  background-position: fixed;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-color: #222;
   min-height: 50vh;
   font-size: 1rem;
 }
