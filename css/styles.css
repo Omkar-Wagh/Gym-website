@@ -802,7 +802,6 @@ margin-bottom: 15px;
 }
 
 .contact-info-item-1 {
-  display:flex;
   align-items: center;
   justify-content: center;
   gap:15px;
@@ -817,6 +816,7 @@ margin-bottom: 15px;
 .contact-info-content-1  {
   align-items:center;
   justify-contend:center;
+  gap:1rem;
 }
 .contact-info-content-1 h4 {
   color: #1da9c0;
