@@ -93,7 +93,7 @@ span {
   text-align: center;
   background: url(https://img.freepik.com/premium-photo/dark-gym-background_985815-1046.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: fixed;
   background-repeat: no-repeat;
   background-attachment: fixed;
   color:#ffffff;
@@ -568,7 +568,7 @@ margin-bottom: 15px;
   align-items: center;
   background: url("../img/bg-img.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: fixed;
   background-repeat: no-repeat;
   background-attachment: fixed;
   min-height: 50vh;
