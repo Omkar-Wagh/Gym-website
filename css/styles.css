@@ -832,6 +832,7 @@ container-1 {
 }
 .contact-info-content-1 i {
   padding:3px;
+  color:#1da9c0;
 }
 .contact-info-content-1 p {
   color: #FFF;
@@ -887,8 +888,7 @@ textarea {
 .img-2 iframe {
   width: 60vw;
   height: 350px;
-  border-radius: 10px;
-  border: 1px solid orange;
+  border-radius:1rem;
 }
 
 .map-info-1, .map-info-2 {
