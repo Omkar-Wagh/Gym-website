@@ -771,7 +771,7 @@ margin-bottom: 15px;
   overflow-x: hidden;
   color:white;
 }
-.section-header{
+.section-header-1{
   width:80%;
   align-items:center;
   justify-contend:center;
@@ -831,7 +831,7 @@ container-1 {
   justify-contend:center;
 }
 .contact-info-content-1 i {
-  padding:1rem;
+  padding:3px;
 }
 .contact-info-content-1 p {
   color: #FFF;
