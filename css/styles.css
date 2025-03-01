@@ -99,32 +99,6 @@ span {
   color:#ffffff;
   font-size: 2rem;
 }
-.hero {
-padding: 100px 20px;
-min-height: 100vh;
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-background: none;
-color: #ffffff;
-font-size: 2rem;
-position: relative;
-}
-
-.hero::before {
-content: "";
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100vh;
-background: url(https://img.freepik.com/premium-photo/dark-gym-background_985815-1046.jpg);
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-z-index: -1;
-}
 .hero h1 {
   font-size: 3.5rem;
   margin-bottom: 0%;
