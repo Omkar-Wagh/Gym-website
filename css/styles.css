@@ -802,14 +802,10 @@ margin-bottom: 15px;
 }
 
 .contact-info-item-1 {
-  display: flex;
   align-items: center;
   justify-content: center;
-  gap: 15px;
   background: rgba(28, 28, 28, 0.9);
-  padding: 15px;
   border-radius: 10px;
-  margin-bottom: 20px;
 }
 
 .contact-info-icon-1 i {
@@ -817,6 +813,7 @@ margin-bottom: 15px;
   color: #fff;
 }
 .contact-info-content-1  {
+  margin: 0 auto;
   align-items:center;
   justify-contend:center;
 }
@@ -827,6 +824,8 @@ margin-bottom: 15px;
 }
 .contact-info-content-1 i {
   padding:0 1rem;
+  font-size:30px;
+  color:blue;
 }
 .contact-info-content-1 p {
   color: #FFF;
