@@ -795,6 +795,7 @@ margin-bottom: 15px;
 }
 
 .contact-info-1, .contact-1 {
+  gap:1rem;
   align-items: center;
   justify-content: center;
   width:30vw;
