@@ -830,6 +830,7 @@ container-1 {
   justify-contend:center;
 }
 .contact-info-content-1 i {
+  padding-left:1rem;
   color:#1da9c0;
 }
 .contact-info-content-1 p {
