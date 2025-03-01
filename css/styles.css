@@ -799,9 +799,11 @@ margin-bottom: 15px;
   justify-content: center;
   width:30vw;
   max-width: 400px;
+  gap:1rem;
 }
 
 .contact-info-item-1 {
+  display:flex;
   align-items: center;
   justify-content: center;
   gap:1rem;
@@ -814,6 +816,7 @@ margin-bottom: 15px;
   color: #fff;
 }
 .contact-info-content-1  {
+  display:flex;
   align-items:center;
   justify-contend:center;
 }
