@@ -772,9 +772,8 @@ margin-bottom: 15px;
   color:white;
 }
 .section-header-1{
+  margin:0 auto;
   width:80%;
-  align-items:center;
-  justify-contend:center;
   text-align:center;
 }
 container-1 {
@@ -795,8 +794,6 @@ container-1 {
   color: white;
   padding: 1rem;
 }
-
-
 
 .contact-info-1, .contact-1 {
   align-items: center;
