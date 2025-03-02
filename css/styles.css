@@ -169,7 +169,7 @@ span {
 .about {
   padding: 60px 20px;
   text-align: center;
-  background-color:#aeaeae;
+  background-color:#e1e1e1;
   box-shadow: 0 0 1px #a6a6a6;
 }
 
@@ -259,7 +259,7 @@ font-style: italic;
 }
 /* Services Section */
 .services {  
-background-color:#242424;
+background-color:#111;
 padding: 60px 20px;
 box-shadow: 0 0 1px #343333;
 }
@@ -278,7 +278,7 @@ padding: 1rem;
 }
 
 .card {
-background-color:  #333;
+background-color:  #212121;
 color:white;
 align-items: center;
 justify-content: center;
@@ -298,17 +298,16 @@ height: 150px;
 border-radius: 50%;
 margin-bottom: 15px;
 }
-.card:hover {
-  color:white;
-  background-color: #313131;
-}
 
 .icon-box i {
+  padding: 10px;
+  border-radius: 10px;
   font-size: 45px; 
   color: rgb(255, 255, 255);
   color:orange;
   align-items: center;
   justify-content: center;
+  background-color: #333;
 }
 
 
@@ -362,9 +361,11 @@ margin-bottom: 15px;
 
 .pricing-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap:1rem;
   padding: 1rem;
+  align-items: center;
+  justify-content: center;
 }
 .pricing-plan {
   border-radius: 10px;
@@ -374,7 +375,7 @@ margin-bottom: 15px;
   justify-content: center;
   background-color:#313131;
   color: #cbd6f2;
-  width: 100%;
+  min-width:20vw;
 }
 .plan-header {
   display: flex;
@@ -566,7 +567,7 @@ margin-bottom: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #222;
+  background:url("../img/bg-img.jpg");
   min-height: 50vh;
   font-size: 1rem;
 }
@@ -582,7 +583,7 @@ margin-bottom: 15px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background:rgb(255,255,255,0.5);
+  background:rgb(255,255,255,0.1);
   font-size: 1.5rem;
   font-weight: bold;
   color:orange;
@@ -1008,9 +1009,3 @@ footer {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   padding-top: 10px;
 }
-
-
-
-
-
-
