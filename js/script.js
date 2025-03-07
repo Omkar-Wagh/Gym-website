@@ -1,3 +1,5 @@
+
+refreshInterval = setInterval(() => next.click(), 5000);
 window.onbeforeunload = function () {
     window.scrollTo(0, 0);
 };
@@ -26,10 +28,29 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
     }
 });
 
+// Toggle menu
+// function toggleMenu() {
+//     let menu = document.getElementById("menu");
+//     menu.classList.toggle("show");
+// }
+
 function toggleMenu() {
     let menu = document.getElementById("menu");
     menu.classList.toggle("show");
+    
+    document.addEventListener("click", closeMenuOnClickOutside);
 }
+
+function closeMenuOnClickOutside(event) {
+    let menu = document.getElementById("menu");
+    let hamburger = document.querySelector(".hamburger");
+
+    if (!menu.contains(event.target) && !hamburger.contains(event.target)) {
+        menu.classList.remove("show");
+        document.removeEventListener("click", closeMenuOnClickOutside);
+    }
+}
+
 
 // contact form
 document.getElementById("contact-form").addEventListener("submit", async function(event) {
