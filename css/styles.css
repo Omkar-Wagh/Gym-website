@@ -13,7 +13,7 @@
 body {
   font-family: Lexend Deca;
   background-color:white; 
-  color: rgb(36, 36, 36);
+  color:#333;
   scroll-behavior: smooth;
   width:100vw;
   height: auto;
@@ -165,7 +165,8 @@ span {
 /* About US section */
 .about-us {
   text-align: center;
-  background:#7D2BE3;
+  background:#fff;
+  padding: 1rem;
 }
 
 .about-us .container {
@@ -176,11 +177,10 @@ span {
     padding: 60px 60px;
     align-items: center;
     justify-content: center;
-    background:#7D2BE3;
+    background:#fff;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap:1rem;
-    color: white;
 }
 .badge-left h1{
   font-size:36px;
@@ -189,16 +189,8 @@ span {
   margin: 1rem;
 }
  .btn1 {
-  background-color:#401A66;
+  background-color:#313131;
   color: #fff;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 0.5rem;
-}
-
-.btn2 {
-  background-color:#fff;
-  color:#db4019;
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 0.5rem;
@@ -219,12 +211,11 @@ span {
   padding: 1rem;
   width: 20vw;
   border-radius: 5px;
-  box-shadow:  6px 2px 0px #361659,
-              -2px -6px 0px #4a1e75;
 }
 @media (max-width: 768px){
   .about-us .container {
     max-width: 100vw;
+    /* padding: 1rem; */
   }
   .badge {
     grid-template-columns: 1fr;
@@ -234,7 +225,7 @@ span {
   }
   .badge-left {
     width:90%;
-
+    padding: 1rem;
   }
   .badge-left-grid{
     grid-template-columns: 1fr;
@@ -259,8 +250,8 @@ span {
 .about {
   padding: 60px 20px;
   text-align: center;
-  color:#fff;
-  background-color:#444;
+  color:#333;
+  background-color:#f3f2ef;
 }
 
 .about .container {
@@ -280,11 +271,8 @@ span {
   border-radius: 50px;
   background: #333;
   box-shadow:  2px 2px 6px #555,
-              -3px -3px 7px #111;
+              -3px -3px 7px #999;
 
-}
-.team-member p {
-font-style: italic;
 }
 
 .team-member img {
@@ -443,13 +431,13 @@ margin-bottom: 15px;
 /* Pricing Section */
   
 #pricing {
-  background-color: #444;
+  background-color:#f3f2ef;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   padding:1rem;
-  color:#fff;
+  color:#333;
 }
 
 .pricing-container {
@@ -680,10 +668,9 @@ margin-bottom: 15px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-radius:5px;
   border-radius: 5px;
   box-shadow:  2px 2px 6px #111,
-               -2px -2px 6px #555;
+               -2px -2px 6px #444;
   font-size: 1.5rem;
   font-weight: bold;
   color:orangered;
@@ -779,7 +766,6 @@ color:orangered;
       align-items: center;
       padding-bottom: 10px;
     }
-
     .post-img h3 {
       text-align: center;
       color:#fff;
@@ -857,7 +843,56 @@ color:orangered;
           max-width: 100%;
         }
       }
+/* Gallery style */
+#gallery{
+  background-color: #f5f5f5;
+  text-align: center;
+  padding-top: 1rem;
+}
+.div-container {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  padding: 1rem;
+  gap:1rem;
+  background-color: #f5f5f5;
+}
 
+.div {
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  width: 60vw;
+  height: 40vh;
+  border-radius: 1rem;
+  background: url("../img/bg-img.jpg") center/cover no-repeat;
+  animation: slider 10s linear infinite;
+}
+
+
+@keyframes slider {
+  0% { background: url("../img/bg-img.jpg") center/cover no-repeat; }
+  30% { background: url("../img/blog-img1.webp") center/cover no-repeat; }
+  60% { background: url("../img/blog-img2.webp") center/cover no-repeat; }
+  100% { background: url("../img/blog-img3.jpg") center/cover no-repeat; }
+}
+
+
+@media(max-width:768px),(max-width:480px),(max-width:320px)  {
+
+  .div-container{
+    width: 100vw;
+    height: 40vh;
+    /* padding:3px; */
+  }
+  .div{
+    width: 100vw;
+    height: 30vh;
+  }
+
+}
+
+/* Contact Style */
 #Address {
   min-height: 100vh;
   width: 100%;
@@ -908,7 +943,7 @@ color:orangered;
   justify-content: center;
   gap: 15px;
   border-radius: 5px;
-  background: #303030;
+  background-color: rgba(51, 51, 51, 0.1);
   box-shadow:  2px 2px 6px #444,
                -2px -2px 6px #333;
   padding: 15px;
@@ -943,7 +978,7 @@ color:orangered;
 
 .container-contact-1 {
   border-radius: 5px;
-  background: #303030;
+  background-color: rgba(51, 51, 51, 0.1);
   box-shadow:  2px 2px 6px #444,
                -2px -2px 6px #333;
   padding: 2rem;
@@ -1035,7 +1070,7 @@ textarea {
 
 /* Footer section */
 footer {
-  background-color: #111;
+  background-color: #191919;
   color: white;
   padding: 30px 10%;
 }
@@ -1117,84 +1152,4 @@ footer {
   font-size: 13px;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   padding-top: 10px;
-}
-/* Gallery style */
-.div-container{
-  width: 100vw;
-  height: 60vh;
-  align-items: center;
-  justify-content: center;
-  padding: 5rem;
-  background-color: #fff;
-}
-.div{
-  align-items: center;
-  justify-content: center;
-  margin:0 auto;
-  width:60vw;
-  height: 40vh;
-  background-color: #436267;
-  animation: slider 10s linear infinite;
-}
-@keyframes slider {
-  0%{background-image: url("../img/bg-img.jpg")};
-  30%{background-image: url("../img/blog-img1.webp")};
-  60%{background-image: url("../img/blog-img2.webp")};
-  100%{background-image: url("../img/blog-img3.jpg")};
-}
-/* Gallery style */
-#gallery{
-  background-color: #f5f5f5;
-  text-align: center;
-}
-.div-container {
-  width: 100vw;
-  height: 50vh;
-  display: flex;
-  padding: 5rem;
-  gap:1rem;
-  background-color: #f5f5f5;
-}
-
-.div {
-  margin: 0 auto;
-  display: flex;
-  align-items: flex-end;
-  width: 70vw;
-  height: 40vh;
-  border-radius: 1rem;
-  background: url("../img/bg-img.jpg") center/cover no-repeat;
-  animation: slider 10s linear infinite;
-}
-
-.div h1 {
-  font-size: 36px;
-  color:limegreen;
-}
-
-
-@keyframes slider {
-  0% { background: url("../img/bg-img.jpg") center/cover no-repeat; }
-  30% { background: url("../img/blog-img1.webp") center/cover no-repeat; }
-  60% { background: url("../img/blog-img2.webp") center/cover no-repeat; }
-  100% { background: url("../img/blog-img3.jpg") center/cover no-repeat; }
-}
-
-
-@media(max-width:768px),(max-width:480px),(max-width:320px)  {
-  #gallery{
-    text-align: left;
-  }
-  .div-container{
-    width: 100vw;
-    height: 40vh;
-    padding:3px;
-  }
-  .div{
-    width: 100vw;
-    height: 30vh;
-  }
-  .div h1{
-    font-size: 18px;
-  }
 }
