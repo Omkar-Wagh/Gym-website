@@ -17,6 +17,9 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <!-- Navigation Bar -->
@@ -24,7 +27,7 @@
             ☰
         </div>
         <nav class="menu" id="menu">
-            <h2>Fitness Hub Gym</h2>
+            <h2>Dwarka Fitness Club</h2>
             <ul>
                 <li><a href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
                 <li><a href="#about"><i class="fa-solid fa-address-card"></i> About</a></li>
@@ -39,8 +42,8 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <span><h1>Fitness Hub Gym</h1></span>
-            <h3>Transform Your Body, Transform Your Life</h3>
+            <span><h1>Dwarka Fitness Club</h1></span>
+            <h3>Shape Up, Elevate Your Life</h3>
             <h3>Join the best gym in town and achieve your fitness goals Today!</h3>
             <a href="#pricing" class="btn1">Join Now</a>
             <!-- <h1 class="animate__animated animate__bounce animate__infinite"></h1> -->
@@ -74,6 +77,31 @@
         </div>
 
       </section>
+
+
+      <section id="bg-info" class="bg-info">
+        <div class="bg-container">
+            <h1>Transfer Your Fitness Journey Today</h1>
+            <div class="icon-grid-info">
+                <div class="icon-box-info">
+                  <i class="fas fa-users"></i>
+                  <h2>100+</h2>
+                  <p>Members</p>
+                </div>
+                <div class="icon-box-info">
+                  <i class="fas fa-user-check"></i>
+                  <h2>3+</h2>
+                  <p>Trainers</p>
+                </div>
+                <div class="icon-box-info">
+                  <i class="fa fa-building"></i>
+                  <h2>1+</h2>
+                  <p>Branches</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- About Us Section -->
     <section id="about" class="about">
         <div class="container">
@@ -245,6 +273,12 @@
     </div>
     </div>
 </section>
+<!--  -->
+
+
+
+
+
 
 <!-- Testimonials Section -->
 
@@ -311,28 +345,25 @@
     </section>
        
 <!-- Bg section -->
-    <section id="bg-info" class="bg-info">
-        <div class="bg-container">
-            <h1>Transfer Your Fitness Journey Today</h1>
-            <div class="icon-grid-info">
-                <div class="icon-box-info">
-                  <i class="fas fa-users"></i>
-                  <h2>100+</h2>
-                  <p>Members</p>
+            <section id="bmi-calculator">
+                <div class="bmi-info">
+                <div class="container-bmi">
+                    <!-- <h1>BMI Calculator</h1> -->
+                    <h1>Calculate Your BMI</h1>
+                    <div class="display">
+                        <p id="result">20.0</p>
+                        <p id="category">Normal weight</p>
+                    </div>
+                    <div class="row">
+                        <input type="range" min="20" max="200" value="20" id="weight" oninput="calculate()">
+                        <span id="weight-val">20 kg</span>
+                    </div>
+                    <div class="row">
+                        <input type="range" min="100" max="250" value="100" id="height" oninput="calculate()">
+                        <span id="height-val">100 cm</span>
+                    </div>
                 </div>
-                <div class="icon-box-info">
-                  <i class="fas fa-user-check"></i>
-                  <h2>3+</h2>
-                  <p>Trainers</p>
-                </div>
-                <div class="icon-box-info">
-                  <i class="fa fa-building"></i>
-                  <h2>1+</h2>
-                  <p>Branches</p>
-                </div>
-            </div>
-        </div>
-    </section>
+            </section>
     <!-- Blog Section -->
     <section id="blog" class="blog">
         <div class="container">
