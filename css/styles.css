@@ -819,8 +819,7 @@ color:orangered;
       }
 /* Gallery style */
 #gallery{
-  background-color: #f5f5f5;
-  clip-path: polygon(52.5% 2.8%, 72% 0%, 87.3% 2.8%, 100% 0%, 100.5% 100%, 0% 100.3%, 0% 0%, 14.3% 3%, 31.3% 0%);  font-size: 1rem;
+  background-color:#f5f5f5;
   text-align: center;
   padding-top: 1rem;
 }
@@ -1132,8 +1131,7 @@ footer {
 /* Section Styling */
 #bmi-calculator {
   background: #333;
-  clip-path: polygon(52.5% 2.8%, 72% 0%, 87.3% 2.8%, 100% 0%, 100.5% 100%, 0% 100.3%, 0% 0%, 14.3% 3%, 31.3% 0%);  font-size: 1rem;
-    display: flex;
+  display: flex;
     align-items: center;
     justify-content: center;
     padding: 3rem;
