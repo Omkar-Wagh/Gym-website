@@ -37,9 +37,9 @@ span {
   text-decoration: none;
   cursor: pointer;
   z-index: 1000;
-  background-color: #313131;
+  background-color: #191919;
   color: #fff;
-  padding:3px;
+  padding:5px;
   border-radius: 5px;
 }
 
@@ -55,6 +55,7 @@ span {
   padding-top: 60px;
   align-items: center;
   justify-content: center;
+  z-index: 9999;
 }
 
 /* Show menu */
@@ -1239,50 +1240,47 @@ input[type="range"]::-webkit-slider-thumb {
 
 
 /* hero scroll down arrow animation */
-.arrows {
-	width: 60px;
-	height: 72px;
-	position: absolute;
-	left:50vw;
-	margin-left: -25px;
-	bottom: 20px;
+
+.arrow,
+.arrow::before {
+  position: absolute;
+  left: 50%;
 }
 
-.arrows path {
-	stroke: #fff;
-	fill: transparent;
-	stroke-width: 2px;	
-	animation: arrow 2s infinite;
-	-webkit-animation: arrow 3s infinite; 
+.arrow {
+  width: 30px; /* Reduced size */
+  height: 30px;
+  bottom:20px;
+  margin-left: -5px;
+  transform: rotate(45deg);
+  border-left: none;
+  border-top: none;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
 }
 
-@keyframes arrow
-{
-0% {opacity:0}
-40% {opacity:1}
-80% {opacity:0}
-100% {opacity:0}
+.arrow::before {
+  content: '';
+  width: 15px; /* Adjusted size */
+  height: 15px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  margin: -7.5px 0 0 -7.5px;
+  border-left: none;
+  border-top: none;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  animation: arrow 2s infinite;
 }
 
-@-webkit-keyframes arrow 
-{
-0% {opacity:0}
-40% {opacity:1}
-80% {opacity:0}
-100% {opacity:0}
-}
-
-.arrows path.a1 {
-	animation-delay:-1s;
-	-webkit-animation-delay:-1s;
-}
-
-.arrows path.a2 {
-	animation-delay:-0.5s;
-	-webkit-animation-delay:-0.5s;
-}
-
-.arrows path.a3 {	
-	animation-delay:0s;
-	-webkit-animation-delay:0s;
+@keyframes arrow {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-5px, -5px);
+  }
 }
