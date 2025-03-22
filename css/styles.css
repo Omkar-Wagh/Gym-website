@@ -123,9 +123,10 @@ span {
 
 /* Media Query for Hero Section */
 
-@media (max-width: 768px) {
+@media (max-width: 768px),(max-width: 420px) {
   .hero {
     padding: 50px 20px;
+    /* align-items:start; */
   }
   .hero h1 {
     font-size: 28px;
@@ -1233,4 +1234,55 @@ input[type="range"]::-webkit-slider-thumb {
   #bmi-calculator {
     padding: 3rem;
   }
+}
+
+
+
+/* hero scroll down arrow animation */
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left:50vw;
+	margin-left: -25px;
+	bottom: 20px;
+}
+
+.arrows path {
+	stroke: #fff;
+	fill: transparent;
+	stroke-width: 2px;	
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 3s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow 
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s;
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s;
+}
+
+.arrows path.a3 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s;
 }
