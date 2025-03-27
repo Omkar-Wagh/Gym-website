@@ -127,7 +127,6 @@ span {
 @media (max-width: 768px),(max-width: 420px) {
   .hero {
     padding: 50px 20px;
-    /* align-items:start; */
   }
   .hero h1 {
     font-size: 28px;
@@ -314,7 +313,7 @@ span {
 }
 }
 /* Services Section */
-.services {  
+#services {  
 background: #333;
 padding: 60px 20px;
 box-shadow: 0 0 1px #343333;
@@ -364,7 +363,6 @@ margin-bottom: 15px;
   color:orange;
   align-items: center;
   justify-content: center;
-  /* background-color: #210642; */
 }
 
 
@@ -541,6 +539,7 @@ margin-bottom: 15px;
   max-width:80vw;
   width: 100%;
   padding: 1rem;
+  color:#222;
 }
 
 #testimonials .section-header {
@@ -662,7 +661,7 @@ margin-bottom: 15px;
   align-content: center;
   border-radius: 5px;
   font-size: 1.5rem;
-  background:rgba(255, 255, 255, 0.05);
+  background:rgba(255, 255, 255, 0.01);
   font-weight: bold;
   color: brown;
   height: 150px;
@@ -707,6 +706,7 @@ margin-bottom: 15px;
     max-width: 70vw;
     text-align: center;
     font-size: 1rem;
+    color:#222;
     }
     
     .blog-posts {
