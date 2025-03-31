@@ -142,7 +142,7 @@ span {
   grid-template-columns: repeat(4, 1fr);  
   gap: 20px;
   padding: 30px;
-  margin-bottom:30px;
+  bottom:40px;
   background: rgba(0, 0, 0, 0.7);
 }
 
