@@ -98,7 +98,7 @@ span {
 
 /* Hero Section */
 .hero {
-  height: 100vh;
+  height: 80vh;
   display: grid;
   grid-template-rows:1fr;
   align-items: center;
