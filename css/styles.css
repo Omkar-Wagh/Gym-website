@@ -98,7 +98,7 @@ span {
 
 /* Hero Section */
 .hero {
-  height: 90vh;
+  height: 100vh;
   display: grid;
   grid-template-rows:1fr;
   align-items: center;
@@ -142,6 +142,7 @@ span {
   grid-template-columns: repeat(4, 1fr);  
   gap: 20px;
   padding: 30px;
+  margin-bottom:30px;
   background: rgba(0, 0, 0, 0.7);
 }
 
