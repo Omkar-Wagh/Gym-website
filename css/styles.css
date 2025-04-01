@@ -109,7 +109,6 @@ span {
 
   color: #fff;
   font-size: 2rem;
-  /* padding: 30px; */
 }
 
 /* Hero Content */
@@ -163,7 +162,7 @@ span {
     grid-template-columns: repeat(4, 1fr); 
     gap: 10px;
     padding:0;
-    padding-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   .stats div {
@@ -181,7 +180,8 @@ span {
   .stats {
     grid-template-columns: repeat(4, 1fr);
     gap: 5px;
-    padding:1px;
+    padding:0;
+    margin-bottom: 30px;
   }
 
   .stats div {
@@ -1263,5 +1263,3 @@ input[type="range"]::-webkit-slider-thumb {
     padding: 3rem;
   }
 }
-
-
