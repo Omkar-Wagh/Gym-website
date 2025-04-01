@@ -109,6 +109,7 @@ span {
 
   color: #fff;
   font-size: 2rem;
+  /* padding: 30px; */
 }
 
 /* Hero Content */
@@ -162,7 +163,7 @@ span {
     grid-template-columns: repeat(4, 1fr); 
     gap: 10px;
     padding:0;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
   }
 
   .stats div {
@@ -179,9 +180,9 @@ span {
 @media (max-width: 768px) {
   .stats {
     grid-template-columns: repeat(4, 1fr);
-    gap: 5px;
+    gap: 3px;
     padding:0;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
   }
 
   .stats div {
@@ -1244,7 +1245,6 @@ input[type="range"] {
     border-radius: 3px;
     outline: none;
 }
-
 input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
@@ -1254,7 +1254,6 @@ input[type="range"]::-webkit-slider-thumb {
     border-radius: 50%;
     cursor: pointer;
 }
-
 @media(max-width:768px),(max-width:480px),(max-width:320px)  {
   .container-bmi {
     width: 100%;
