@@ -28,7 +28,15 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
     }
 });
 
+<<<<<<< HEAD
 // toggle function 
+=======
+// Toggle menu
+// function toggleMenu() {
+//     let menu = document.getElementById("menu");
+//     menu.classList.toggle("show");
+// }
+>>>>>>> 3356a59a2f8446cf62e202c89a9bd5bf107cd05f
 
 function toggleMenu() {
     let menu = document.getElementById("menu");
@@ -100,4 +108,8 @@ function calculate() {
     }
 
     document.getElementById("category").textContent = category;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 3356a59a2f8446cf62e202c89a9bd5bf107cd05f
