@@ -146,6 +146,7 @@ span {
 /* Stats Section */
 .stats {
   display: grid;
+  margin: 150px;
   grid-template-columns: repeat(4 ,1fr);
   gap: 20px;
   padding: 1rem;
@@ -169,15 +170,21 @@ span {
 /* Responsive Hero Adjustments */
 @media (max-width: 768px) {
   .hero h1 {
-    font-size: 32px;
+    font-size: 24px;
+  }
+  .stats div {
+    font-size: 12px;
   }
 
   .hero h3 {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .menu {
     text-align: center;
+  }
+  .stats span {
+    font-size: 18px;
   }
 }
 
@@ -450,21 +457,6 @@ html {
     padding: 8px;
   }
 }
-
-@media (max-width: 768px), (max-width: 480px), (max-width: 320px) {
-  .team-box {
-    width: 100%;
-    max-width: 165px;
-    height: auto;
-    background: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    margin: 0 auto;
-  }
-}
-
 
 /* Services Section */
 #services {  
@@ -1334,35 +1326,39 @@ input[type="range"]::-webkit-slider-thumb {
   }
 }
 
-/*  */
+/*Gallery Style*/
 #gallery-image {
   width: 100%;
   height: auto;
   background-color: #cecece;
-  align-items: center;
   text-align: center;
   padding: 10px;
 }
 
 .gallery {
   display: grid;
-  gap: 5px;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 3px;
   width: 100%;
   max-width: 1200px;
-  height: auto;
   margin: 0 auto;
-  padding: 30px;
+  padding: 1px;
+}
+@media(max-width:768px),(max-width:480px),(max-width:320px)  {
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  }
 }
 
 .gallery-item {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 170px;
-  width: 220px;
+  aspect-ratio: 1 / 1.2; /* Maintains consistent aspect ratio */
   border: 1px solid #111;
-  border-radius: 10px;
+  border-radius: 5px;
   overflow: hidden;
+  width: 100%;
 }
 
 .gallery-item img {
@@ -1371,29 +1367,3 @@ input[type="range"]::-webkit-slider-thumb {
   object-fit: cover;
 }
 
-/* Responsive Styles */
-@media (max-width: 1067px) {
-  .gallery-item {
-    height: 150px;
-    width: 150px;
-  }
-  .gallery {
-    grid-template-columns: repeat(5, 1fr);
-  }
-}
-
-@media (max-width: 768px) {
-  .gallery {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (max-width: 467px) {
-  .gallery-item {
-    height: 100px;
-    width: 100px;
-  }
-  .gallery {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
